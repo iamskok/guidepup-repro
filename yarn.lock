@@ -1139,10 +1139,17 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@guidepup/guidepup@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@guidepup/guidepup/-/guidepup-0.15.1.tgz#5789f70ad9c6b0c2b03fdb4e2b498dd12904390e"
-  integrity sha512-5ZWv7txNKpHO6PJl7P2pfruAi+WI4G2/Cgan3NA6BE8A0Vzca6WT7PGsO01616LeuXuY+P7uJ/T1ZoQDTeAd7w==
+"@guidepup/guidepup@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@guidepup/guidepup/-/guidepup-0.16.0.tgz#a09841d8594d2b000c7b114a45332890da72c6e9"
+  integrity sha512-kHmhIAkFn05FYT/MgHBc4iXi6OVsiDeiY4g6mp77p0brcf9HZhcY+iko+bVhW2jPWuJNysVTUbDNlOYUsrM43w==
+
+"@guidepup/playwright@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@guidepup/playwright/-/playwright-0.9.0.tgz#4f8dae50a86808ec5b4f33647d787d3961d47041"
+  integrity sha512-u00DHXsp1FjCFNGMsXdKnvvYpL9lITxAYGHG/E3vZiUxCTxFCs6GzpTLvJIv+Ake+tSr5cibr8smW9VEofr92Q==
+  dependencies:
+    "@guidepup/guidepup" "^0.16.0"
 
 "@humanwhocodes/config-array@^0.10.5":
   version "0.10.6"
